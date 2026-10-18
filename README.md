@@ -1,20 +1,28 @@
-# mamaearth-growth-analytics-capstone
-# Mamaearth Growth Analytics Capstone Project 🚀
+# 🚀 Mamaearth Growth Analytics Capstone Project
 
-Welcome to the **Mamaearth Growth Analytics** capstone project repository! This project performs an end-to-end data analytics lifecycle—from relational database management and SQL reporting to Python-based Exploratory Data Analysis (EDA) and Power BI visualization.
+An end-to-end data analytics capstone project evaluating sales performance, customer acquisition channels, product category revenue, and return rate drivers for Mamaearth.
 
 ---
 
-## 📂 Project Structure
+## 🛠️ Tech Stack & Tools Used
+* **Database & Querying:** MySQL Workbench (`schema.sql`, `reports.sql`)
+* **Data Processing & EDA:** Python (Google Colab, Pandas, NumPy)
+* **Data Visualization & Reporting:** Power BI (`mamaearth_growth_analytics_dashboard.pbix`)
+* **Version Control:** GitHub
 
+---
+
+## 📂 Project File Structure
 ```text
-mamaearth-growth-analytics/
+mamaearth-growth-analytics-capstone/
 │
-├── sql/
-│   ├── schema.sql         # Database and table creation scripts (MySQL)
-│   └── reports.sql        # SQL business analytical queries & reports
-│
-├── notebooks/             # Python & Pandas Data Wrangling, Cleaning & EDA (Google Colab)
-├── visualizations/        # Power BI Dashboard (.pbix) and exported charts
-├── narrator/              # Automated JSON findings and insight summaries
-└── README.md              # Project documentation
+├── mamaearth_growth_eda.ipynb                # Python EDA & data cleaning notebook
+├── schema.sql                                # Database schema creation script
+├── reports.sql                               # Analytical SQL queries & reports
+└── mamaearth_growth_analytics_dashboard.pbix # Power BI visualization dashboard
+📊 Key Findings & Insights
+Total Revenue: Optimized total revenue reaching approximately ₹97.36K - ₹99.86K.
+
+Category Performance: Highlighted key product categories driving major sales volume (Haircare & Skincare).
+
+Return Rate Analysis: Examined return behaviors based on payment methods (COD vs. Online) and city tiers.
